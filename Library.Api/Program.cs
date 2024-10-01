@@ -54,3 +54,6 @@ var databaseInitializer = app.Services.GetRequiredService<DatabaseInitializer>()
 await databaseInitializer.InitializeAsync();
 
 app.Run();
+
+// need this so the FluentAssertions can find the Program assembly
+public partial class Program { }

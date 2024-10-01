@@ -81,9 +81,9 @@ namespace Library.Api.Endpoints
             if (!created)
             {
                 return Results.BadRequest(new List<ValidationFailure>
-                    {
-                        new ValidationFailure("Isbn", "A book with this ISBN-13 already exists")
-                    });
+                {
+                    new ValidationFailure("Isbn", "A book with this ISBN-13 already exists")
+                });
             }
 
             //return Results.Created($"/books/{book.Isbn}", book);

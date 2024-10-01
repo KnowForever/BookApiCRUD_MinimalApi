@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E0AF0730-310C-4FEF-A4AB-AF5A99B97095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Api.Tests.Integration", "Library.Api.Tests.Integration\Library.Api.Tests.Integration.csproj", "{17FFCB68-DB22-499E-879D-0766B202368D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +24,16 @@ Global
 		{3B3F73C9-117F-47A2-8E77-8D87755EEE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B3F73C9-117F-47A2-8E77-8D87755EEE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B3F73C9-117F-47A2-8E77-8D87755EEE18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FFCB68-DB22-499E-879D-0766B202368D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FFCB68-DB22-499E-879D-0766B202368D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FFCB68-DB22-499E-879D-0766B202368D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FFCB68-DB22-499E-879D-0766B202368D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17FFCB68-DB22-499E-879D-0766B202368D} = {E0AF0730-310C-4FEF-A4AB-AF5A99B97095}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8B078DF-F091-487C-91AA-43034F3816A1}
